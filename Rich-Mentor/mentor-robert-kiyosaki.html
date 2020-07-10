@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Robert Kiyosaki</title>
+   <meta name="viewport" content="width=device-width"/>
+   <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   <!-- myscripts -->
+   <script src="assets/script/audio_script.js"></script>
+   <script src="assets/script/mentor_script.js"></script>
+   <script src='assets/script/ebook_script.js'></script>
+   <script src="assets/script/video_script.js"></script>
+   <style>
+       #logo {
+	     width:500px;
+		 height:180px;
+	   }
+	   .ebook_img {
+	     width:120px;
+		 height=120px;
+	   }
+	   video {
+	   width:330px;
+	   height:300px;
+	   }
+   </style>
+</head>
+<body>
+    
+	  <div class="jumbotron">
+	    <center><img id="logo" src="img/mminclogo.png"/></center>
+	      <div class="display-4"><center id="mentor_name_1">Rich Mentor</center></div>
+		  <div class"container">
+		    <hr class="my-4"/>
+		     <h3 id="mentor_name_2">Mentor Name Here</h3>
+			 <script>
+			      mentor = "Robert Kiyosaki";
+				  mentor_num_id = "mentor_name_1";
+				  loadMentor();
+				  mentor_num_id = "mentor_name_2";
+				  loadMentor();
+			 </script>
+			 
+		         <!-- Audio book card -->
+				 <div class='card'>
+			         <div class='badge badge-success badge-lg'><h6>Audio Books</h6></div>
+			         <div class='card-body'>
+				    <div id="audio_card_1"></div> <script src="assets/script/audio_books_robert_kiyosaki.js"></script>	  
+				  </div> <!-- ./card-body -->
+			   </div> <!-- ./card -->
+			   
+			   <hr class="my-4"/>
+			   
+			   <!-- Audio Advices card -->
+				 <div class='card'>
+			         <div class='badge badge-success badge-lg'><h6>Audio Advices</h6></div>
+			         <div class='card-body'>
+				    <div id="audio_card_2"></div> <script src="assets/script/audio_robert_kiyosaki.js"></script>	  
+				  </div> <!-- ./card-body -->
+			   </div> <!-- ./card -->
+			   
+			   
+			   <hr class='my-4'>
+			   <div class='card'>
+			     <div class='badge badge-success badge-lg'><h6>Ebook(Summary)</h6></div>
+			      <div class='card-body'>
+				       <div id='ebook_1'></div> <script src='assets/script/ebook_robert_kiyosaki.js'></script>
+				  </div>
+			   </div>
+			   
+			   <hr class="my-4">	
+			   <div class="card">
+			       <div class="badge badge-success badge-lg"><h6>Rich Dad Videos</h6></div>
+				   <div class="card-body">
+				      <div id='video_1'></div><script src='assets/script/video_robert_kiyosaki_rich_dad.js'></script>
+				   </div>
+			   </div>
+			   
+			     <hr class="my-4">	
+			   <div class="card">
+			       <div class="badge badge-success badge-lg"><h6>Life Changing Video Advices</h6></div>
+				   <div class="card-body">
+				      <div id='video_2'></div><script src='assets/script/video_robert_kiyosaki_video_advice.js'></script>
+				   </div>
+			   </div>
+			   
+			     <hr class="my-4">	
+			   <div class="card">
+			       <div class="badge badge-success badge-lg"><h6>Millennial Money</h6></div>
+				   <div class="card-body">
+				      <div id='video_3'></div><script src='assets/script/video_robert_kiyosaki_millennial_money.js'></script>
+				   </div>
+			   </div>
+			   
+
+            <!-- -->
+			<hr class="my-4"/>
+		 
+		  </div><!--   ./container -->
+		  <center id="developed_by"></center><script src="assets/script/developed_by.js"></script>
+	  </div> <!-- ./jumbotron -->
+	  
+<!--end of Navigation bar-->
+  
+</body>
+</html>
