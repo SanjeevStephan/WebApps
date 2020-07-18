@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aadi Gurudas@UDAAN NGO</title>
+   <meta name="viewport" content="width=device-width"/>
+   <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   <!-- myscripts -->
+   <script src="script/audio_summary_script.js"></script>
+   <script src="script/mentor_script.js"></script>
+   <!--
+   <script src='script/ebook_script.js'></script>
+   <script src="script/video_script.js"></script>
+   -->
+   <style>
+       #logo {
+	     width:500px;
+		 height:180px;
+	   }
+	   .ebook_img {
+	     width:120px;
+		 height=120px;
+	   }
+	   video {
+	   width:330px;
+	   height:300px;
+	   }
+   </style>
+</head>
+<body>
+    
+	  <div class="jumbotron">
+	    <center><img id="logo" src="img/mminclogo.png"/></center>
+	      <div class="display-4"><center id="mentor_name_1">Audio Summary</center></div>
+		  <div class"container">
+		    <hr class="my-4"/>
+		     <h3 id="mentor_name_2">Mentor Name Here</h3>
+			 <script>
+			      mentor = "Aadi Gurudas | <br/>Follow youtube@<span class='badge badge-danger badge-pill'>UDAAN NGO</span>";
+				  mentor_num_id = "mentor_name_1";
+				  //loadMentor();
+				  mentor_num_id = "mentor_name_2";
+				  loadMentor();
+			 </script>
+			 
+		         <!-- Audio book card -->
+				 <div class='card'>
+			         <div class='badge badge-success badge-lg'><h6 id="audio_book_heading">Audio Books</h6></div>
+			         <div class='card-body'>
+				    <div id="audio_card_1"></div> <script src="script/audio_books_aadi_gurudas.js"></script>	  
+				  </div> <!-- ./card-body -->
+			   </div> <!-- ./card -->
+			   
+            <!-- -->
+			<hr class="my-4"/>
+		 
+		  </div><!--   ./container -->
+		  <center id="developed_by"></center><script src="script/developed_by.js"></script>
+	  </div> <!-- ./jumbotron -->
+	  
+<!--end of Navigation bar-->
+  
+</body>
+</html>
