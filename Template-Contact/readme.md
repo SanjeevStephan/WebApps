@@ -2,4 +2,4 @@
 This repository contains sample html contact one page for demonstration purpose.
 <a href="https://github.com/SanjeevStephan/WebApp-Contact-Tempate/blob/master/index.html">OPEN_PAGE</a>
 
-![Contact Screen](https://github.com/SanjeevStephan/WebApps/blob/master/Contact-Tempate/sample-image.jpg)
+![Contact Screen](https://github.com/SanjeevStephan/WebApps/blob/master/Template-Contact/sample-image.jpg)
